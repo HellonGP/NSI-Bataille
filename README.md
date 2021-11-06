@@ -1,4 +1,4 @@
-> Programme fait par : ... / ...
+> Programme fait par : Félix TERRIEN / Gabriel PONS / Raphaël ZRIBI
 
 **Quel était votre projet initial ?**
 
