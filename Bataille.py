@@ -14,10 +14,10 @@ global v_rouge, v_bleu
 v_rouge = 0
 v_bleu = 0
 for i in range(32): #Boucle 32 car 32 cartes
-    dicts[paquet[i]] = valeurs[i] #En gros : on prend comme clé une carte de la liste "paquet" et puis on lui assigne la valeur à partir de la liste "valeurs". Exemple : '7♦': 1  (Ici la valeur "7♦" à la valeur 1 assignée, ce qui nous permet de la comparer avec les autres valeurs)
-#Classe (c'est classe)  
- 
-class Jeu:#Création de la classe
+    dicts[paquet[i]] = valeurs[i] #En gros: on prend comme clé une carte de la liste "paquet" et puis on lui assigne la valeur à partir de la liste "valeurs". Exemple : '7♦': 1  (Ici la valeur "7♦" à la valeur 1 assignée, ce qui nous permet de la comparer avec les autres valeurs)
+
+#Classe (c'est classe) 
+class Jeu: #Création de la classe
     def __init__(self): #Constructeur
         self.paquet_complet = [n+c for c in Couleurs for n in Numéros] #Création attribut "paquet_complet", on prend tous les "n" pris dans la liste Numéros auquel on ajoute le premier symbole (ici c'est "♦"), ainsi de suite avec les autres symboles
     def couper(self): #Fonction pour mélanger le paquet et le distribuer en 2
@@ -106,5 +106,3 @@ print(p.jouer_partie()) #Lancement de la partie
 
 
 '''COPYRIGHT BY FBI and Hellon'''
-        
-        
