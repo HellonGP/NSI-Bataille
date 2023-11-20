@@ -100,9 +100,3 @@ class Jeu: #Création de la classe
 p = Jeu() #Création instance
 print(p.couper()) #Mélange+coupe le paquet
 print(p.jouer_partie()) #Lancement de la partie
-
-
-
-
-
-'''COPYRIGHT BY FBI and Hellon'''
