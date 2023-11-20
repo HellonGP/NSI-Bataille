@@ -1,5 +1,3 @@
-> Programme fait par : Félix TERRIEN / Gabriel PONS / Raphaël ZRIBI
-
 **Quel était votre projet initial ?**
 
 Notre but était de développer une simulation de jeu de bataille en Python avec recommandation de s’inspirer de le la page 132 du manuel (*cf. Numérique et sciences informatiques : 24 leçons avec exercices corrigés - Terminale*).
